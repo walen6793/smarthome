@@ -1,80 +1,160 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="headerandmid">
-      <h1>HELEN BONMAN</h1>
-        <div class="two_header">
-          <div class="text_two_header">
-            <div class="text_text_two_header">
-                <p class="hader_text">BNK48</p>
-                <p class="mid_text">BNK48 บีเอ็นเคโฟร์ตีเอต</p>
-                <p class="bottom_text">อ่อนแอก็แพ้ไป อุดเลือดกำเดาไหวก็ไปต่อ กับสาวๆ ไอดอล BNK48 ที่มองทีไรก็ตาลายไปหมดเลย
-              เพราะมีแต่คนน่ารักๆ เลือกไม่ถูกจริงๆ และวัยทีนอย่างเรา คงไม่มีใครไม่รู้จัก เพลงคุกกี้เสี่ยงทาย
-              (แอบมองเธออยู่นะจ๊ะ แต่เธอไม่รู้บ้างเลย) กันหรอกใช่ม๊า ฮิตทั้งเพลงทั้งท่าเต้นขนาดนี้ หรือถ้าใครอยากรู้เรื่องราว
-              >> ที่มาและความเชื่อเรื่องคุกกี้เสี่ยงทาย << สามารถคลิ๊กเข้าไปอ่านได้เลย ดังนั้นวันนี้ทีนเอ็มไทยไม่รอช้า นำประวัติของสาวๆ
-              มาให้ทุกคนได้รู้จักกับพวกเธอมากขึ้น พร้อมส่องภาพสวยๆ ของพวกเธอกัน</p>
-                <div class="undre_text">
-                  <p>MEER OVER MII</p>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="portfolil">
-          <p>------------ PORTfPLLO</p>
-        </div>
-        <div class="Content">
-          <p> <img src="img/2.jpg" alt="kuikainaluk"> </p>
-        </div>
-        <div class="content-body">
-          <div class="columns-img">
-            <img src="img/c1.jpg" alt="image1">
-            <img src="img/c2.jpg" alt="image2">
-            <img src="img/c3.jpg" alt="image3">
-          </div>
-          <div class="columns-img">
-            <img src="img/c4.jpg" alt="image4">
-            <img src="img/c10.jpg" alt="image5">
-            <img src="img/c6.jpg" alt="image6">
-          </div>
-          <div class="columns-img">
-            <img src="img/c11.jpg" alt="image4">
-            <img src="img/c12.jpg" alt="image5">
-            <img src="img/c9.jpg" alt="image6">
-          </div>
-        </div>
-
-        <div class="bottom-content">
-          <div class="bottom-content-text">
-            <h1>KAIMOOK</h1>
-            <p>WARATTAYA DEESOMLERT</p>
-            <p> Date of birth : 27 August 1997 </p>
-            <p> Height : 153 cm</p>
-              <div class="bottom_content_province">
-                <p> Province : Bangkok</P>
-                <p>Like : แมว </p>
-              </div>
-          </div>
-          <div class="bottom_border">
-            <p>KAIMOOK</p>
-          </div>
-            <i class="fa fa-arrow-circle-o-up icon-center" style="font-size:48px;color:#000" ></i>
-        </div>
-
-        <div class="footer">
-          <p>00000000000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;dfsdfdfgfdgdfgdfg
-            &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;sdfsdfsdfsdfsdfsdfsdf</p>
-          <div class="footer-icon">
-            <i class="fa fa-facebook-f" style="font-size:48px;color:#fff"></i>
-            <i class="fa fa-instagram" style="font-size:48px;color:#fff"></i>
-            <i class="fa fa-linkedin" style="font-size:48px;color:#fff"></i>
-          </div>
-        </div>
-      </div>
-  </body>
+<!doctype html> 
+<html lang="en"> 
+ <head> 
+ <!-- Required meta tags --> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+ <!-- Bootstrap CSS --> 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/
+bootstrap.min.css" > 
+ 
+ <title>Hello, world!</title> 
+ </head> 
+ <body> 
+ <nav class="navbar navbar-expand-sm bg-primary navbar-dark"> 
+ <!-- Brand/logo --> 
+ <a class="navbar-brand" href="#">ระบบ Smart Home</a> 
+ </nav> 
+ <div class="container-fluid"> 
+ <div class="row"> 
+ <div class="col text-center" > 
+ <div><h2 >ความชื้น</h2></div> 
+ <div class="row"> 
+ <div class="col-md-3 text-center"> 
+ <h1 id="humidity">100 %</h1> 
+ </div> 
+ <div class="col-md-9 text-center"> 
+ <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://
+thingspeak.com/channels/840845/charts/1?
+bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe> 
+ </div> 
+ </div> 
+ </div> 
+ <div class="col text-center"> 
+ <div><h2>อุณหภูมิ</h2></div> 
+ <div class="row"> 
+ <div class="col-md-3 text-center"> 
+ <h1 id="temperature">25 °C</h1> 
+ </div> 
+ <div class="col-md-9 text-center"> 
+ <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://
+thingspeak.com/channels/840845/charts/2?
+bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ <hr/> 
+ <div class="row"> 
+ <div class="col-md-6 text-center" > 
+ <div><h2 >ไฟรั้ว (เปิด/ปิด อัตโนมัติ)</h2></div> 
+ <img id="fenceOn" border="0" src="https://www.w3schools.com/js/pic_bulbon.gif" 
+style="width:100px"> 
+ <img id="fenceOff" border="0" src="https://www.w3schools.com/js/pic_bulbon.gif" 
+style="width:100px"> 
+ </div> 
+ <div class="col-md-6 text-center"> 
+ <div><h2>ไฟห้องนอน</h2></div> 
+ <div><img id="myImageOn" border="0" src="https://www.w3schools.com/js/pic_bulbon.gif" 
+style="width:100px"> 
+ <img id="myImageOff" border="0" src="https://www.w3schools.com/js/pic_bulboff.gif" 
+style="width:100px"> 
+ <button type="button" id="btn-lamp-switch" class="btn btn-warning">On</button> 
+ </div> 
+ <div></div> 
+ </div> 
+ </div> 
+ </div> 
+ <!-- Optional JavaScript --> 
+ <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></
+script> 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script> 
+ <script> 
+ $(document).ready(function(){ 
+ $("#myImageOn").hide(); 
+ $("#myImageOff").hide(); 
+ $("#fenceOn").hide(); 
+ $("#fenceOff").hide(); 
+ 
+ getDataThingSP(); 
+ getLampStatus(); 
+ $("#btn-lamp-switch").html("On"); 
+ $("#btn-lamp-switch").click(function(){ 
+ var lamp_status = $("#btn-lamp-switch").html(); 
+ //alert(lamp_status); 
+ if(lamp_status=="On"){ 
+ setLamp(1); 
+ setStatusLamp(1); 
+ }else{ 
+ setLamp(0); 
+ setStatusLamp(0); 
+ } 
+ 
+ }); 
+ function getDataThingSP(){ 
+ // set your channel id here 
+ var channel_id = 840845; 
+ // set your channel's read api key here if necessary 
+ var api_key = '2UQ4WB6DAA7Z3HTE'; 
+ var humi,temp,light; 
+ //alert(555); 
+ $.getJSON('https://api.thingspeak.com/channels/' + channel_id + '/feed/last.json?api_key=' 
++ api_key, function(data) { 
+ humi = data.field1; 
+ temp = data.field2; 
+ light = data.field3; 
+ $("#humidity").html(humi+" %"); 
+ $("#temperature").html(temp+" °C"); 
+ if(light > 500){ 
+ $("#fenceOn").show(); 
+ $("#fenceOff").hide(); 
+ }else{ 
+ $("#fenceOn").show(); 
+ $("#fenceOff").hide(); 
+ } 
+ }); 
+ } 
+ }); 
+ function getLampStatus(){ 
+ // set your channel id here 
+ var channel_id = 841747; 
+ // set your channel's read api key here if necessary 
+ var api_key = '4QYXTF6X7AEIM83G'; 
+ $.getJSON('https://api.thingspeak.com/channels/' + channel_id + '/feed/last.json?api_key=' + 
+api_key, function(data) { 
+ light = data.field1; 
+ //alert(light); 
+ if(light == 1){ 
+ setLamp(1); 
+ }else{ 
+ setLamp(0); 
+ } 
+ }); 
+ } 
+ function setLamp(status){ 
+ if(status==1){ 
+ $("#btn-lamp-switch").html("Off"); 
+ $("#myImageOn").show(); 
+ $("#myImageOff").hide(); 
+ 
+ }else{ 
+ $("#btn-lamp-switch").html("On"); 
+ $("#myImageOn").hide(); 
+ $("#myImageOff").show(); 
+ 
+ } 
+ } 
+ function setStatusLamp(status){ 
+ // set your channel id here 
+ var channel_id = 841747; 
+ // set your channel's read api key here if necessary 
+ var api_key = 'B8AE46XQTN3REWL4'; 
+ $.get('https://api.thingspeak.com/update?api_key='+api_key+'&field1='+status, function(data) { 
+ }); 
+ } 
+ 
+ </script> 
+ </body> 
 </html>
