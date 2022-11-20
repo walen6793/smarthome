@@ -13,7 +13,7 @@ bootstrap.min.css" >
  <body> 
  <nav class="navbar navbar-expand-sm bg-primary navbar-dark"> 
  <!-- Brand/logo --> 
- <a class="navbar-brand" href="#">ระบบ Smart Home</a> 
+ <a class="navbar-brand" href="#">ระบบ Smart Home ของ walen แต่ยังไม่มีNodeMcu</a> 
  </nav> 
  <div class="container-fluid"> 
  <div class="row"> 
